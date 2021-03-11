@@ -1,1 +1,3 @@
 # TDDAndDesignPatterns
+
+Learning and practicing
