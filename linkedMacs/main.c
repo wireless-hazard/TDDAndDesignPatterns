@@ -7,7 +7,5 @@ int main(){
 	list = ListCreate();
 	SetMacAttr(list,mac1);
 	SetNext(list,list2);
-	for(int i = 0; i<=5;i++){
-		printf("%d\n",list->mac[i]);
-	}
+	printf("%d\n",somateste(4,5));
 }

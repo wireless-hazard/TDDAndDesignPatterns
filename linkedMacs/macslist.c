@@ -14,3 +14,7 @@ void SetMacAttr(maclist *me, uint8_t mac[]){
 void SetNext(maclist *me, maclist *next){
 	memcpy(me,next,sizeof(maclist));
 }
+
+uint8_t somateste(uint8_t a, uint8_t b){
+	return (uint8_t)(a + b);
+}

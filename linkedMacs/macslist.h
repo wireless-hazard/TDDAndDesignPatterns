@@ -15,5 +15,6 @@ struct LinkedMac{
 maclist *ListCreate(void);
 void SetMacAttr(maclist *me, uint8_t mac[]);
 void SetNext(maclist *me, maclist *next);
+uint8_t somateste(uint8_t a, uint8_t b);
 
 #endif
