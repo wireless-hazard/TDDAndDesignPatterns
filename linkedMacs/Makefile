@@ -1,2 +1,2 @@
-list: main.c macslist.c macslist.h
+all:
 	gcc -o list main.c macslist.c
